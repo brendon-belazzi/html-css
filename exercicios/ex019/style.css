@@ -1,0 +1,49 @@
+@charset 'UTF-8';
+
+/*
+    # -> id
+    . -> class
+    : -> pseudo class
+    :: -> pseudo element
+
+
+*/
+
+div {
+  background-color: lightgray;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid black;
+  text-align: center;
+}
+
+div:hover {
+  background-color: rgba(32, 178, 171, 0.605);
+}
+
+div:active {
+  background-color: rgba(46, 139, 86, 0.605);
+}
+
+a {
+  color: darkmagenta;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(79, 0, 79);
+}
+
+a:active {
+  color: red;
+}
+
+a::after {
+  content: " [link]";
+  color: rgb(114, 114, 114);
+  font-weight: lighter;
+  text-decoration: none;
+}

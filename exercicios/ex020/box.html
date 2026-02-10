@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modelo de caixas</title>
+    <style>
+      body {
+        background-color: brown;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        width: 600px;
+        margin: auto;
+      }
+
+      header {
+        background-image: linear-gradient(to bottom, white, gray);
+        border-radius: 6px;
+        padding: 10px;
+      }
+
+      header > h1 {
+        text-align: center;
+      }
+
+      nav {
+        background-color: rgb(95, 95, 95);
+        padding: 4px;
+        box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.499);
+      }
+
+      nav > a {
+        color: white;
+        padding: 3px;
+      }
+
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px 0px;
+        border-radius: 6px 0px;
+      }
+
+      main > h2 {
+        text-shadow: 2px black;
+      }
+
+      main > article {
+        background-color: lightgray;
+        padding: 10px;
+        border-radius: 6px;
+      }
+
+      main > article > aside {
+        background-color: darkgray;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 6px;
+      }
+
+      footer > p {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Notícias sobre o Brasil</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+          sunt iure maiores minus cum minima saepe molestiae aspernatur illum
+          eligendi, sed, temporibus obcaecati explicabo! Deleniti ipsum dicta
+          quaerat ipsa asperiores! Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Totam illum amet, facere repudiandae eum
+          consequuntur repellendus aspernatur quisquam vero, atque molestias?
+          Itaque sapiente laborum sed numquam, mollitia voluptate vel
+          blanditiis.
+        </p>
+        <aside>Artigo escrito por</aside>
+      </article>
+    </main>
+    <footer>
+      <p>Desenvolvido por</p>
+    </footer>
+  </body>
+</html>
