@@ -50,7 +50,7 @@ header > nav > a {
 main {
   background-color: white;
   margin: auto;
-  width: 75%;
+  max-width: 800px;
   padding: 20px;
   text-indent: 16px;
   border-radius: 0px 0px 10px 10px;
