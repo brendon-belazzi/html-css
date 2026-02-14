@@ -91,3 +91,29 @@ body {
   padding: 10px;
   display: inline-block;
 }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+footer > p > a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  transform: scale(1.1);
+
+  color: rgb(104, 104, 104);
+}
