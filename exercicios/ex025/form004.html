@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="cadastro.php" method="post">
+      <p>
+        <label for="cor">Cor : </label>
+        <input type="color" name="cor" id="cor" />
+      </p>
+
+      <p>
+        <label for="nivel">Nível de satisfação : </label>
+        <input type="range" id="nivel" min="1" max="10" />
+      </p>
+
+      <p>
+        <label for="foto">Escolha a foto de perfil : </label>
+        <input type="file" name="foto" id="foto" />
+      </p>
+
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
