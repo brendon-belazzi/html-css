@@ -1,0 +1,37 @@
+/* declaraçoes gerais */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: white;
+  padding: 10px;
+}
+
+/* declaraçoes retrato */
+@media screen and (orientation: portrait) {
+  body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+  }
+}
+
+/* declaraçoes landscape */
+@media screen and (orientation: landscape) {
+  body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+  }
+}
