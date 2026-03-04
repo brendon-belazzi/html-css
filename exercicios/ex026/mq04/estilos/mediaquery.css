@@ -84,6 +84,10 @@ tv: acima de 1200px
     background-image: url(../imagens/back-tv.jpg);
   }
 
+  main {
+    width: 800px;
+  }
+
   .phone {
     display: none;
   }
