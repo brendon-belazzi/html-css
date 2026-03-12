@@ -53,8 +53,10 @@ main {
 
 .formulario > h1 {
   text-align: center;
+  font-size: 2em;
 }
 
 .formulario > p {
   margin: 20px 10px;
+  font-size: 0.9em;
 }
