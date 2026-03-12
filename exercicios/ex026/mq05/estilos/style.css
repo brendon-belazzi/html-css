@@ -23,7 +23,7 @@ header > h1 {
 #burguer {
   background-color: rgb(32, 32, 32);
   display: block;
-  width: 100vw;
+  width: 97vw;
   text-align: center;
   color: white;
   padding: 10px;
@@ -54,7 +54,7 @@ menu > ul > li > a {
 }
 
 main {
-  width: 90vw;
+  width: 85vw;
   background-color: white;
   margin: auto;
   margin-top: 10px;
